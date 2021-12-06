@@ -1,0 +1,109 @@
+/kagra/Dropbox/Measurements/VIS/PLANT_GDIAG_GAS_SUS_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_GAS_PRM_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_GAS_PR2_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_GAS_PR3_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_HDIAG_BF_SUS_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_BF_PRM_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_BF_PR2_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_BF_PR3_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_VDIAG_BF_SUS_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_BF_PRM_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_BF_PR2_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_BF_PR3_TEST2DAMP.png
+- No channel K1:VIS-PR2_IM_TEST_T_OUT K1:VIS-PR2_IM_DAMP_L_IN1_DQ
+- No channel K1:VIS-PR2_IM_TEST_T_OUT K1:VIS-PR2_IM_DAMP_T_IN1_DQ
+- No channel K1:VIS-PR2_IM_TEST_T_OUT K1:VIS-PR2_IM_DAMP_Y_IN1_DQ
+/kagra/Dropbox/Measurements/VIS/PLANT_HDIAG_IM_SUS_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_PRM_TEST2DAMP.png
+- No channel K1:VIS-PR2_IM_TEST_T_OUT K1:VIS-PR2_IM_DAMP_L_IN1_DQ
+- No channel K1:VIS-PR2_IM_TEST_T_OUT K1:VIS-PR2_IM_DAMP_T_IN1_DQ
+- No channel K1:VIS-PR2_IM_TEST_T_OUT K1:VIS-PR2_IM_DAMP_Y_IN1_DQ
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_PR2_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_PR3_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_HDIAG_IM_SUS_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_PRM_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_PR2_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_PR3_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_HDIAG_BF_SUS_COILOUTF2LVDTINF.png
+/kagra/Dropbox/Measurements/VIS/PLANT_VDIAG_BF_SUS_COILOUTF2LVDTINF.png
+/kagra/Dropbox/Measurements/VIS/PLANT_HDIAG_IM_SUS_COILOUTF2OSEMINF.png
+/kagra/Dropbox/Measurements/VIS/PLANT_VDIAG_IM_SUS_COILOUTF2OSEMINF.png
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F0_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F0_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F0_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F1_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F1_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F1_0224.xml
+- Invalid data K1:VIS-SRM_BF_TEST_GAS_OUT K1:VIS-SRM_F0_DAMP_GAS_IN1_DQ
+- Invalid data K1:VIS-SRM_BF_TEST_GAS_OUT K1:VIS-SRM_F0_DAMP_GAS_IN1_DQ
+- Invalid data K1:VIS-SR2_BF_TEST_GAS_OUT K1:VIS-SR2_F0_DAMP_GAS_IN1_DQ
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_BF_0224.xml
+- Invalid data K1:VIS-SR3_BF_TEST_GAS_OUT K1:VIS-SR3_F0_DAMP_GAS_IN1_DQ
+- Invalid data K1:VIS-SR3_BF_TEST_GAS_OUT K1:VIS-SR3_F0_DAMP_GAS_IN1_DQ
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_BF_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_BF_0224.xml
+/kagra/Dropbox/Measurements/VIS/PLANT_GDIAG_GAS_SUS_TEST2DAMP.png
+- Invalid data K1:VIS-SRM_BF_TEST_GAS_OUT K1:VIS-SRM_F0_DAMP_GAS_IN1_DQ
+- Invalid data K1:VIS-SRM_BF_TEST_GAS_OUT K1:VIS-SRM_F0_DAMP_GAS_IN1_DQ
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_GAS_SRM_TEST2DAMP.png
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F0_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F0_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F0_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F1_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F1_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_F1_0224.xml
+- Invalid data K1:VIS-SR2_BF_TEST_GAS_OUT K1:VIS-SR2_F0_DAMP_GAS_IN1_DQ
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_BF_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_BF_0224.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_GAS_TEST_BF_0224.xml
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_GAS_SR2_TEST2DAMP.png
+- Invalid data K1:VIS-SR3_BF_TEST_GAS_OUT K1:VIS-SR3_F0_DAMP_GAS_IN1_DQ
+- Invalid data K1:VIS-SR3_BF_TEST_GAS_OUT K1:VIS-SR3_F0_DAMP_GAS_IN1_DQ
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_GAS_SR3_TEST2DAMP.png
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_L_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_L_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_L_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_T_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_T_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_T_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_Y_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_Y_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_Y_0201.xml
+/kagra/Dropbox/Measurements/VIS/PLANT_HDIAG_IM_SUS_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_SRM_TEST2DAMP.png
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_L_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_L_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_L_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_T_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_T_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_T_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_Y_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_Y_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_Y_0201.xml
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_SR2_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_SR3_TEST2DAMP.png
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_R_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_R_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_R_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_P_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_P_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_P_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_V_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_V_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_V_0201.xml
+/kagra/Dropbox/Measurements/VIS/PLANT_VDIAG_IM_SUS_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_SRM_TEST2DAMP.png
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_R_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_R_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_R_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_P_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_P_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_P_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_V_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_V_0201.xml
+- No file /kagra/Dropbox/Measurements/VIS/TF/PLANT_SAFE_SR2_IM_TEST_V_0201.xml
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_SR2_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_COUPLE_IM_SR3_TEST2DAMP.png
+/kagra/Dropbox/Measurements/VIS/PLANT_HDIAG_IM_SUS_COILOUTF2OSEMINF.png
+/kagra/Dropbox/Measurements/VIS/PLANT_VDIAG_IM_SUS_COILOUTF2OSEMINF.png
+/kagra/Dropbox/Measurements/VIS/PLANT_GDIAG_GAS_SUS_TEST2DAMP.png
