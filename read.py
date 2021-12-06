@@ -33,61 +33,43 @@ def search_fromto(opt,stg,excd,excp,dof,readp):
     return _from,_to
 
 # ------------------------------------------------------------------------------
-def read_tf(fname,chname_to,chname_from,savetxt=False,oltf=False):
+def read_tfdata(fname,chname_to,chname_from):
     '''
     '''
+    print(chname_from,'->',chname_to)
+    factor = -1 # unknown factor in dtt2xml bug.
+    info = {}
     try:
-        print(chname_from,'->',chname_to)
         data = DiagAccess(fname)
-        _tf = data.xfer(chname_to,chname_from).xfer
-        if oltf: #Fixme
-            _tf *= -1
-        _coh = data.xfer(chname_to,chname_from).coh
-        _freq = data.xfer(chname_to,chname_from).FHz
-        bw = data.xfer(chname_to,chname_from).BW
-        ave = data.xfer(chname_to,chname_from).averages
-        gps_second = data.xfer(chname_to,chname_from).gps_second
-        win = data.xfer(chname_to,chname_from).window
-        snr = data.xfer(chname_to,chname_from).SNR_estimate
-        date = gpstime.tconvert(gps_second).split('.')[0]
-        _info = date,bw,ave,win        
+        freq = data.xfer(chname_to,chname_from).FHz        
+        coh = data.xfer(chname_to,chname_from).coh
+        _tf = data.xfer(chname_to,chname_from).xfer        
+        mag = np.abs(_tf)
+        phase = np.rad2deg(np.angle(_tf))*factor        
+        info['bw'] = data.xfer(chname_to,chname_from).BW
+        info['ave'] = data.xfer(chname_to,chname_from).averages
+        info['gps'] = data.xfer(chname_to,chname_from).gps_second
+        info['win'] = data.xfer(chname_to,chname_from).window
+        info['snr'] = data.xfer(chname_to,chname_from).SNR_estimate
     except RuntimeWarning:
-        return np.nan,np.nan,np.nan,np.nan,None
+        return None
     except ValueError as e:
         #print('ValueError',traceback.format_exc())
         print('- Invalid data',chname_from,chname_to,fname.split('_')[-1])
-        return np.nan,np.nan,np.nan,np.nan,None    
+        return None
     except KeyError as e:
         #print('KeyError.',traceback.format_exc())
         print('- No channel',chname_from,chname_to,fname.split('_')[-1])
-        return np.nan,np.nan,np.nan,np.nan,None
+        return None
     except FileNotFoundError as e:
         #print('FileNotFoundError.',traceback.format_exc())
         print('- No file',fname)
-        return np.nan,np.nan,np.nan,np.nan,None
+        return None
     except AttributeError as e:
         print('AttributeError',traceback.format_exc())
-        return np.nan,np.nan,np.nan,np.nan,None
+        return None
     
-    if savetxt:
-        data = np.stack([_freq,np.abs(_tf),np.rad2deg(np.angle(_tf))*-1,_coh]).T
-        _fname = fname.replace('xml','dat')
-        np.savetxt(_fname,data,header='freq,abs,phase,coherence')
-        #print('Save: ',_fname)
-        
-    # Calc magnitude, phase, coherence
-    factor = -1
-    opts = ['SRM','SR2','SR3','BS',
-            'PRM','PR2','PRM',
-            'ITMX','ITMY','ETMY','ETMX']
-    # if any([optic in chname_to for optic in opts]):
-    #     if any([dof in chname_to for dof in ['GAS']]):
-    #         factor = -1  # -1 is come from bug in dtt2hdf            
-    #     if any([stage in chname_to for stage in ['IM']]):
-    #         factor = -1  # -1 is come from bug in dtt2hdf
-    #     if any([stage in chname_to for stage in ['IP']]):
-    #         factor = -1  # -1 is come from bug in dtt2hdf                    
-    return _freq,np.abs(_tf), np.rad2deg(np.angle(_tf))*factor, _coh,_info
+    return freq,mag,phase,coh,info
 
 # ------------------------------------------------------------------------------
 def read_asd(fname,chname,savetxt=False):
