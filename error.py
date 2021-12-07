@@ -1,0 +1,2 @@
+class HogeError(Exception):        
+    pass
