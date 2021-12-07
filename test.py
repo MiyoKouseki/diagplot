@@ -1,4 +1,3 @@
-
 from diag import Xfer,Asd    
 from plot import Plot
 
@@ -10,8 +9,8 @@ class TestDiag(unittest.TestCase):
         ''' 
         '''
         fname = './test/data/PLANT_ITMX_STANDBY_IM_TEST_L_0007.xml'
-        chn_den   = 'K1:VIS-ITMX_IM_DAMP_L_IN1_DQ'
-        chn_num = 'K1:VIS-ITMX_IM_TEST_L_EXC'        
+        chn_num   = 'K1:VIS-ITMX_IM_DAMP_L_IN1_DQ'
+        chn_den = 'K1:VIS-ITMX_IM_TEST_L_EXC'        
         xfer = Xfer(fname,chn_num,chn_den)
         a = xfer.info()
         b = xfer_info
@@ -21,8 +20,8 @@ class TestDiag(unittest.TestCase):
         ''' 
         '''
         fname = './test/data/PLANT_ITMX_STANDBY_IM_TEST_L_0007.xml'
-        chn_den   = 'K1:VIS-ITMX_IM_DAMP_L_IN1_DQ'
-        chn_num = 'K1:VIS-ITMX_IM_TEST_L_EXC'        
+        chn_num   = 'K1:VIS-ITMX_IM_DAMP_L_IN1_DQ'
+        chn_den = 'K1:VIS-ITMX_IM_TEST_L_EXC'        
         xfer = Xfer(fname,chn_num,chn_den)
         plot = Plot(xfer)
         plot.savefig('test_xfer_plot.png')
@@ -43,10 +42,7 @@ class TestDiag(unittest.TestCase):
         '''
         fname = './test/data/PLANT_ITMX_STANDBY_IM_TEST_L_0007.xml'
         chn   = 'K1:VIS-ITMX_IM_DAMP_L_IN1_DQ'
-        asd = Asd(fname,chn)
-        a = asd.info()
-        b = asd_info
-        
+        asd = Asd(fname,chn)        
         plot = Plot(asd)
         hoge = plot.savefig('test_asd_plot.png')
         plot.close()
