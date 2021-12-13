@@ -53,16 +53,16 @@ class TestPlot(unittest.TestCase):
         hoge = plot.savefig('test_asd_plot.png')
         plot.close()
 
-class TestSearch(unittest.TestCase):
-    def test_xfer_search(self):
-        import glob    
-        sources = glob.glob('./test/data/*.xml')
-        #chn_num   = 'K1:VIS-ITMX_IM_DAMP_L_IN1_DQ'
-        #chn_den = 'K1:VIS-ITMX_IM_TEST_L_EXC'
-        chn_num   = 'K1:VIS-ITMX_BF_COILOUTF_H3_IN1_DQ'
-        chn_den = 'K1:VIS-ITMX_IM_TEST_L_EXC'                        
-        find_xfers(sources,chn_num,chn_den)
-        pass
+# class TestSearch(unittest.TestCase):
+#     def test_xfer_search(self):
+#         import glob    
+#         sources = glob.glob('./test/data/*.xml')
+#         #chn_num   = 'K1:VIS-ITMX_IM_DAMP_L_IN1_DQ'
+#         #chn_den = 'K1:VIS-ITMX_IM_TEST_L_EXC'
+#         chn_num   = 'K1:VIS-ITMX_BF_COILOUTF_H3_IN1_DQ'
+#         chn_den = 'K1:VIS-ITMX_IM_TEST_L_EXC'                        
+#         find_xfers(sources,chn_num,chn_den)
+#         pass
         
 if __name__=='__main__':    
     unittest.main()    

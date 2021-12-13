@@ -133,4 +133,5 @@ dmypy.json
 TEMPLATE
 test
 *png
-#*
+env*
+*.sql
