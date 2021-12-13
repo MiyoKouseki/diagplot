@@ -25,7 +25,7 @@ class Plot(figure.Figure):
             nrows, ncols = 1,1
             huge = 'asd' #fixme
         elif all([isinstance(_data,Xfer) for _data in data]):
-            nrows, ncols = 3,1
+            nrows, ncols = 3,2
             huge = 'xfer' #fixme
         else:
             print(data)
@@ -58,7 +58,7 @@ class Plot(figure.Figure):
                             raise HogeError('')
                     else:
                         raise HogeError('')
-            
+                    
     def close(self):
         from matplotlib.pyplot import close
         close(self)

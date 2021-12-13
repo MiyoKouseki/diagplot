@@ -133,3 +133,4 @@ dmypy.json
 TEMPLATE
 test
 *png
+#*
