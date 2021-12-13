@@ -5,7 +5,7 @@ from dttxml.access import DiagXferHolder, DiagASDHolder
 class Xfer(DiagXferHolder):
     def __init__(self,fname,chn_num,chn_den):
         self.fname = fname
-        daccess = DiagAccess(self.fname)  
+        daccess = DiagAccess(self.fname)
         super().__init__(daccess,chn_num,chn_den)
 
     def info(self):
